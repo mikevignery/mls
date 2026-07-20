@@ -269,12 +269,6 @@ padding:6rem 5%;
     var(--navy-800), url("https://raw.githubusercontent.com/mikevignery/meritlegalservices_v2/refs/heads/main/coverimage.avif");
   overflow: hidden;
 }*/
-.hero::before {
-  content: "";
-  position: absolute; inset: 0;
-  background-image: repeating-linear-gradient(90deg, rgba(255,255,255,.03) 0 1px, transparent 1px 120px);
-  pointer-events: none;
-}
 .hero-inner {
   padding: clamp(4rem, 9vw, 7.5rem) 0;
   text-align: center;
@@ -586,7 +580,6 @@ padding:6rem 5%;
   border-top: 2px solid var(--gold-500);
   border-bottom: 1px solid var(--gold-500);
 }
-.footer-brand img { height: 56px; margin-bottom: 1rem; }
 .footer-main address { font-style: normal; line-height: 1.85; }
 .footer-main a { color: rgba(255,255,255,.85); }
 .footer-main a:hover { color: var(--gold-400); }
